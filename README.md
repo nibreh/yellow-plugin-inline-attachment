@@ -9,7 +9,7 @@ This plugin use [Inline Attachment by Rovak](http://git.razko.nl/InlineAttachmen
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
 2. Download [master.zip](https://github.com/nibreh/yellow-plugin-inline-attachment/archive/master.zip). If you are using Safari, right click and select 'Download file as'.
 3. Copy `master.zip` into your `system/plugins` folder.
-4. Open the file `/media/images/upload_attachment.php` and change `localhost` with your current domain.
+4. Open the file `/media/images/upload_attachment.php` and replace `localhost` with your current domain.
 
 ## How to use this plugin?
 
