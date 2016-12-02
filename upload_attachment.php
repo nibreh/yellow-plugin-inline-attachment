@@ -2,7 +2,7 @@
 
 $uploadFolder = __DIR__ . '/';
 
-/*Change localhost with your current domain*/
+/*Replace localhost with your current domain*/
 $onlinePath = 'http://localhost/media/images/';
 
 $response = array();
