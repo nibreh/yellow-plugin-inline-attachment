@@ -1,4 +1,4 @@
-# Inline Attachment
+# Inline Attachment (experimental)
 
 Drag and Drop Image Upload. Plugin for Yellow CMS to easily embed images in a textarea. 
 
