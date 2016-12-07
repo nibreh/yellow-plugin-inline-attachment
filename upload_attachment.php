@@ -1,9 +1,7 @@
 <?php
 
 $uploadFolder = __DIR__ . '/';
-
-/*Replace localhost with your current domain*/
-$onlinePath = 'http://localhost/media/images/';
+$onlinePath = 'https://'.$_SERVER['SERVER_NAME'].'/media/images/';
 
 $response = array();
 
