@@ -1,7 +1,7 @@
 <?php
 
 $uploadFolder = __DIR__ . '/';
-$onlinePath = 'https://'.$_SERVER['SERVER_NAME'].'/media/images/';
+$onlinePath = (isset($_SERVER['HTTPS']) ? "https" : "http") . '://'.$_SERVER['SERVER_NAME'].dirname($_SERVER['REQUEST_URI'])."/";
 
 $response = array();
 
