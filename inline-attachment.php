@@ -20,7 +20,7 @@ class YellowInlineAttachment
 	function onExtra($name)
 	{
 		$output = null;
-		if($name=="header" && $this->yellow->getRequestHandler()=="webinterface")
+		if($name=="header" && $this->yellow->getRequestHandler()=="edit")
 		{
 			$imageLocation = $this->yellow->config->get("serverBase").$this->yellow->config->get("imageLocation");
 			$pluginLocation = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation");
