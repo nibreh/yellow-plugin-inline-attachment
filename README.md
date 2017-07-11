@@ -1,6 +1,8 @@
 # Inline Attachment 0.7.1
 
-Drag and Drop Image Upload. Plugin for Yellow CMS to easily embed images in a textarea. 
+*Drag and Drop Image Upload. Plugin for Yellow CMS to easily embed images in a textarea.*
+
+This plugin use the shortcut `[image filename.jpg]` to show image. You must install [Image Plugin](https://github.com/datenstrom/yellow-plugins/tree/master/image) for Yellow.
 
 This plugin use [Inline Attachment by Rovak](http://git.razko.nl/InlineAttachment/)
 
@@ -14,7 +16,9 @@ To uninstall delete the plugin files.
 
 ## How to use this plugin?
 
-Choose a location with the cursor, then drag and drop your image into textarea.
+Choose a location with the cursor, then drag and drop your image into textarea. 
+
+You must see `[Uploading file..]`, then `[image filename.jpg]` after upload.
 
 Images will be uploaded in your `/media/images/` folder with a random filename.
 
