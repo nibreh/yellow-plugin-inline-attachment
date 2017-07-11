@@ -152,15 +152,17 @@
      * Text which will be inserted when dropping or pasting a file.
      * Acts as a placeholder which will be replaced when the file is done with uploading
      */
-    progressText: '![Uploading file...]()',
-
+    // progressText: '![Uploading file...]()',
+	  progressText: '[Uploading file...]',
+    
     /**
      * When a file has successfully been uploaded the progressText
      * will be replaced by the urlText, the {filename} tag will be replaced
      * by the filename that has been returned by the server
      */
-    urlText: "![file]({filename})",
-
+    //urlText: "![file]({filename})",
+    urlText: "[image {filename}]",
+    
     /**
      * Text which will be used when uploading has failed
      */
