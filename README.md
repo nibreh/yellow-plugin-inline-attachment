@@ -22,7 +22,5 @@ You must see `[Uploading file..]`, then `[image filename.jpg]` after upload.
 
 Images will be uploaded in your `/media/images/` folder with a random filename.
 
-Inline Attachment get automatically the right folder `media/images` if Yellow is in a subfolder.
-
 By default, Inline Attachment comes with **Jquery 3.2.1** (https://code.jquery.com/jquery-3.2.1.min.js). You can change your version in `config.ini`.
 
