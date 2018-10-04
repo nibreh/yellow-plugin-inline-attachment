@@ -1,6 +1,6 @@
 # Obsolete
 
-Since 2018, Yellow ha a new text editor with drag & drop image functionality. 
+Since 2018, Yellow has a new text editor with drag & drop image functionality. 
 
 ## Inline Attachment 0.7.1
 
